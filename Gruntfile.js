@@ -261,7 +261,8 @@ module.exports = function (grunt) {
     imagemin: {
       dist: {
         options: {
-          progressive: true
+          progressive: true,
+          pngquant: true
         },
         files: [{
           expand: true,
