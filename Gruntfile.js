@@ -17,6 +17,8 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
   // Allow writting file with Grunt
   grunt.loadNpmTasks('grunt-file-creator');
+  // Allow creating gz for assets
+  grunt.loadNpmTasks('grunt-contrib-compress');
   // Load configuration file
   var config = require('js-yaml').safeLoad(fs.readFileSync('_config.yml', 'UTF-8'));
 
@@ -376,6 +378,23 @@ module.exports = function (grunt) {
         'coffee:dist',
         'copy:dist'
       ]
+    },
+    compress: {
+      main: {
+        options: {
+          mode: 'gzip'
+        },
+        files: [
+          // Each of the files in the app/ folder will be output to
+          // the dist/ folder each with the extension .gz.js
+          {
+            expand: true,
+            cwd: '<%= yeoman.dist %>',
+            src: ['js/*.js', 'css/*.css'],
+            dest: '<%= yeoman.dist %>'
+          }
+        ]
+      }
     }
   });
 
@@ -431,7 +450,8 @@ module.exports = function (grunt) {
     'filerev',
     'usemin',
     'htmlmin',
-    'file-creator'
+    'file-creator',
+    'compress'
     ]);
 
   grunt.registerTask('deploy', [
