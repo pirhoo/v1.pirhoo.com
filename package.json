@@ -1,8 +1,8 @@
 {
-  "name": "pirhoov3",
+  "name": "pirhoo",
   "private": true,
   "version": "0.0.0",
-  "description": "Yeoman workflow for pirhoo.v3",
+  "description": "Yeoman workflow for pirhoo",
   "dependencies": {
     "grunt-file-creator": "~0.1.1"
   },
