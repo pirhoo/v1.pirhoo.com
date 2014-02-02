@@ -1,33 +1,33 @@
--
-  thumbnail: "./img/bg-dark.jpg"
-  title: "Detective.io"
-  type: "ddj"
-  url: "http://detective.io"
--
-  thumbnail: "./img/bg-dark.jpg"
-  title: "Benford's Law Calculator"
-  type: "ddj"
-  url: "http://benford.jplusplus.org"
--
-  thumbnail: "./img/bg-dark.jpg"
-  title: "Hackaton: Broken Promises"
-  type: "ddj"
-  url: "http://brokenpromises.jplusplus.org"
--
-  thumbnail: "./img/bg-dark.jpg"
-  title: "OKF: Spending Stories"
-  type: "ddj"
-  url: ""
--
-  thumbnail: "./img/bg-dark.jpg"
-  title: "Fondation BNPP: Odyssée Jeunes"
-  type: "site"
-  url: ""
--
-  thumbnail: "./img/bg-dark.jpg"
-  title: "Dataplayer"
-  type: "site"
-  url: "http://dataplayer.org"
+# -
+#   thumbnail: "./img/bg-dark.jpg"
+#   title: "Detective.io"
+#   type: "ddj"
+#   url: "http://detective.io"
+# -
+#   thumbnail: "./img/bg-dark.jpg"
+#   title: "Benford's Law Calculator"
+#   type: "ddj"
+#   url: "http://benford.jplusplus.org"
+# -
+#   thumbnail: "./img/bg-dark.jpg"
+#   title: "Hackaton: Broken Promises"
+#   type: "ddj"
+#   url: "http://brokenpromises.jplusplus.org"
+# -
+#   thumbnail: "./img/bg-dark.jpg"
+#   title: "OKF: Spending Stories"
+#   type: "ddj"
+#   url: ""
+# -
+#   thumbnail: "./img/bg-dark.jpg"
+#   title: "Fondation BNPP: Odyssée Jeunes"
+#   type: "site"
+#   url: ""
+# -
+#   thumbnail: "./img/bg-dark.jpg"
+#   title: "Dataplayer"
+#   type: "site"
+#   url: "http://dataplayer.org"
 
 -
   thumbnail: "./img/thumbnails/lesinternets-mini-150x150.png"
