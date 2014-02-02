@@ -10,16 +10,29 @@
 //   fonts: fonts
 
 module.exports = function (grunt) {
+  var fs = require('fs');
   // Show elapsed time after tasks run
   require('time-grunt')(grunt);
   // Load all Grunt tasks
   require('load-grunt-tasks')(grunt);
+  // Allow writting file with Grunt
+  grunt.loadNpmTasks('grunt-file-creator');
+  // Load configuration file
+  var config = require('js-yaml').safeLoad(fs.readFileSync('_config.yml', 'UTF-8'));
 
   grunt.initConfig({
     // Configurable paths
     yeoman: {
       app: 'app',
       dist: 'dist'
+    },
+    'file-creator': {
+      'cname': {
+        'dist/CNAME': function(fs, fd, done) {
+          fs.writeSync(fd, config.url);
+          done();
+        }
+      }
     },
     watch: {
       compass: {
@@ -420,7 +433,8 @@ module.exports = function (grunt) {
     'svgmin',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'file-creator'
     ]);
 
   grunt.registerTask('deploy', [
@@ -435,4 +449,5 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
 };

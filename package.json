@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "description": "Yeoman workflow for pirhoo.v3",
-  "dependencies": {},
+  "dependencies": {
+    "grunt-file-creator": "~0.1.1"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.6.4",
@@ -11,6 +13,7 @@
     "grunt-concurrent": "~0.4.3",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-coffeelint": "~0.0.8",
+    "grunt-file-creator": "~0.1.1",
     "grunt-contrib-coffee": "~0.8.2",
     "grunt-contrib-compass": "~0.7.0",
     "grunt-contrib-concat": "~0.3.0",
@@ -29,7 +32,8 @@
     "grunt-usemin": "~2.0.0",
     "jshint-stylish": "~0.1.3",
     "load-grunt-tasks": "~0.2.0",
-    "time-grunt": "~0.2.8"
+    "time-grunt": "~0.2.8",
+    "js-yml": "~3.0.1"
   },
   "engines": {
     "node": ">=0.8.0"

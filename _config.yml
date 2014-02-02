@@ -3,8 +3,9 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: pirhoo.v3
-description: 'My portfolio. A simple stack of PHP, Smarty template, Masonry layout and Meny.js menu.'
+name: pirhoo
+url: http://pirhoo.com
+description: 'My portfolio. A simple stack of Jekyll, SCSS, Masonry layout and Meny.js menu.'
 author:
   name: Pierre Romera
   email: hello@pirhoo.com
