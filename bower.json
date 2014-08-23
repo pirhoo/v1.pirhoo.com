@@ -4,7 +4,6 @@
   "dependencies": {
     "meny": "1.2.0",
     "modernizr": "2.6.*",
-    "glfx.js": "http://evanw.github.io/glfx.js/glfx.js",
     "jquery": "1.6.4",
     "jquery-masonry": "2.1.*",
     "jquery.scrollTo": "1.4.*",
