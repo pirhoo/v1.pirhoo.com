@@ -124,38 +124,8 @@ menu {
         color:rgba(white, 0.4);
     }
 
-    .links, .lang {
+    .links {
         display:inline;
-    }
-
-    .lang {
-        margin-right:30px;
-        position:relative;
-        top:-5px;
-        font-weight:bold;
-
-        a {
-            display:inline-block;
-            background:white;
-            border:1px solid #777;
-            color:#777;
-            padding:2px 4px;
-            margin-left:5px;
-            @include text-shadow(none);
-            @include border-radius(3px);
-
-            &.active {
-                background:$base-link-color;
-                border-color:$base-link-color;
-                color:white;
-            }
-
-            .meny-active &.active {
-                background:rgba(white, 0.4);
-                border-color:rgba(white, 0.4);
-                color:white;
-            }
-        }
     }
 
 
@@ -165,7 +135,7 @@ menu {
 
         a {
             font-size:20px;
-            color:$base-link-color;
+            color:#444444;
             @include text-shadow(none);
             @include transition(0.4s);
 
