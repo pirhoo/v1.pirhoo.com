@@ -8,3 +8,6 @@ run:
 
 resize:
 	mogrify -resize 150 app/img/thumbnails/*.png
+
+deploy:
+	grunt deploy
