@@ -16,7 +16,7 @@
     site.bindLiveEvent = function() {
 
         // open some links in another window/tab
-        $('a.open-window').live('click', function(e) {
+        $("body").on('click', 'a.open-window', function(e) {
 
             if( $(this).attr('href')  !== '') {
                 // stop basic behavior
