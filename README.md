@@ -18,20 +18,18 @@ Install command line tools:
 
 ```
 sudo npm install -g grunt-cli bower
-gem install compass
 ```
 
 Install dependancies with NPM and Bower.
 
 ```
-npm install
-bower install
+make install
 ```
 
 Then start serve static files with Grunt!
 
 ```
-grunt server
+make run
 ```
 
 ## Generators

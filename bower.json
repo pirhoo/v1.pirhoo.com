@@ -10,5 +10,8 @@
     "jquery.scrollTo": "1.4.*",
     "jquery-transform": "latest",
     "jquery-waypoints": "1.1.4"
+  },
+  "resolutions": {
+    "jquery": ">=1.8"
   }
 }
