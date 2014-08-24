@@ -9,29 +9,6 @@
     var site = {}, scrollDuration = 0, scrollOptions = { offset: 38};
 
     /**
-     * Bind live events
-     * @function
-     * @public
-     */
-    site.bindLiveEvent = function() {
-
-        // open some links in another window/tab
-        $('body').on('click', 'a.open-window', function(e) {
-
-            if( $(this).attr('href')  !== '') {
-                // stop basic behavior
-                e.preventDefault();
-                // open the window
-                window.open( $(this).attr('href') );
-            }
-
-        });
-
-    };
-
-    site.bindLiveEvent();
-
-    /**
      * Event when we try to filter the list
      * @function
      * @public
@@ -95,6 +72,18 @@
             $subMenu  : $('#sub-menu'),
             $tracker  : $('#tracker')
         };
+
+        // Open link in a new window
+        $('a').each(function() {
+           var a = new RegExp('/' + window.location.host + '/');
+           if(!a.test(this.href)) {
+               $(this).click(function(event) {
+                   event.preventDefault();
+                   event.stopPropagation();
+                   window.open(this.href, '_blank');
+               });
+           }
+        });
 
         // initializes masonry to define the layout of each vignette
         site.el.$cascade.masonry({
