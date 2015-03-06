@@ -1,4 +1,24 @@
 -
+  thumbnail: "./img/thumbnails/rsf.png"
+  title: "RSF : Index de la liberté de la presse"
+  type: "ddj"
+  url: "http://index.rsf.org"
+-
+  thumbnail: "./img/thumbnails/iframe.png"
+  title: "Iframe Scaffolder"
+  type: "ddj"
+  url: "http://pirhoo.github.io/iframe-scaffolder/"
+-
+  thumbnail: "./img/thumbnails/gw.png"
+  title: "Global Witness : The Great Rip off"
+  type: "ddj"
+  url: "http://greatripoffmap.globalwitness.org/"
+-
+  thumbnail: "./img/thumbnails/afdas.png"
+  title: "AFDAS: carte de presse en 2015"
+  type: "ddj"
+  url: "http://data.metiers-presse.org/"
+-
   thumbnail: "./img/thumbnails/idf-cfa.png"
   title: "Île de France: les CFA de votre région"
   type: "ddj"
