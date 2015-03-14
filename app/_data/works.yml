@@ -14,6 +14,11 @@
   type: "ddj"
   url: "http://greatripoffmap.globalwitness.org/"
 -
+  thumbnail: "./img/thumbnails/recettes.png"
+  title: "Île de France: carte de presse en 2015"
+  type: "site"
+  url: "http://www.iledefrance.fr/fil-actus-region/est-bon-poisson-0"
+-
   thumbnail: "./img/thumbnails/afdas.png"
   title: "AFDAS: carte de presse en 2015"
   type: "ddj"
