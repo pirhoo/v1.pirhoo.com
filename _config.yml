@@ -5,7 +5,7 @@
 
 name: pirhoo
 url: http://v1.pirhoo.com
-description: 'My portfolio. A simple stack of Jekyll, SCSS, Masonry layout and Meny.js menu.'
+description: 'My (depreacted) portfolio. A simple stack of Jekyll, SCSS, Masonry layout and Meny.js menu.'
 author:
   name: Pierre Romera
   email: hello@pirhoo.com
