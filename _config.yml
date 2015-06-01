@@ -4,7 +4,7 @@
 # 3. config.yml
 
 name: pirhoo
-url: http://www.pirhoo.com
+url: http://v1.pirhoo.com
 description: 'My portfolio. A simple stack of Jekyll, SCSS, Masonry layout and Meny.js menu.'
 author:
   name: Pierre Romera
