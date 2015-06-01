@@ -1,5 +1,7 @@
 # Hello, my name is @Pirhoo
 
+:warning: This website have been replaced by [a new one](http://github.com/pirhoo/v2.pirhoo.com)!
+
 ## Installation
 
 ```
